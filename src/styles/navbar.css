@@ -258,22 +258,22 @@
 /* Mobile Navbar Adjustments (max-width: 768px) */
 @media (max-width: 768px) {
   .header {
-    height: 70px;
+    height: 78px;
   }
   .navbar__brand {
-    gap: 10px;
+    gap: 12px;
   }
   .navbar__logo-img {
-    width: 46px;
-    height: 46px;
-    border-radius: 9px;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
   }
   .navbar__brand-title {
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 800;
   }
   .navbar__brand-subtitle {
-    font-size: 11.5px;
+    font-size: 12.5px;
     font-weight: 600;
     color: #374151;
   }
@@ -281,8 +281,8 @@
     padding: 6px;
   }
   .navbar__toggle svg {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
   }
 }
 

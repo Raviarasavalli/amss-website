@@ -111,7 +111,7 @@ function Navbar() {
               aria-controls="mobile-navigation"
               aria-label={isOpen ? 'Close menu' : 'Open menu'}
             >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
+              {isOpen ? <X size={32} /> : <Menu size={32} />}
             </button>
           </div>
 

@@ -1,0 +1,98 @@
+:root {
+  /* Color Palette */
+  --color-primary: #1B5E3C;
+  --color-secondary: #3A8B5C;
+  --color-accent: #DCEEE1;
+  --color-background: #FAFAF7;
+  --color-text: #2B2B2B;
+  --color-text-muted: #666666;
+  --color-text-light: #FFFFFF;
+  --color-cta: #D9A441;
+  --color-cta-hover: #C59132;
+  --color-white: #FFFFFF;
+  --color-card-bg: #FFFFFF;
+  --color-border: #E8E8E2;
+  --color-shadow: rgba(0, 0, 0, 0.04);
+  --color-shadow-hover: rgba(0, 0, 0, 0.08);
+  
+  /* Fonts System — Poppins (Headings & UI) + Inter (Body) */
+  --font-heading: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Responsive Typography Scale Defaults (Mobile First) */
+  --font-size-hero: 2.125rem;    /* 34px mobile default */
+  --font-size-title: 1.75rem;     /* 28px mobile default */
+  --font-size-body: 1rem;        /* 16px mobile default */
+  --font-size-btn: 1rem;         /* 16px */
+  --font-size-nav: 1rem;         /* 16px */
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;       /* 12px */
+  --font-size-sm: 0.875rem;      /* 14px */
+  --font-size-md: 1.125rem;      /* 18px */
+  --font-size-lg: 1.25rem;       /* 20px */
+  --font-size-xl: 1.5rem;        /* 24px */
+  --font-size-xxl: 2rem;         /* 32px */
+  --font-size-display: 2.5rem;   /* 40px */
+  
+  /* Line Heights */
+  --lh-body: 1.8;
+  --lh-heading: 1.2;
+  --lh-cards: 1.7;
+  --lh-footer: 1.7;
+
+  /* Letter Spacings */
+  --ls-hero: -0.03em;
+  --ls-section: -0.02em;
+  --ls-body: normal;
+  --ls-btn: 0.01em;
+  
+  /* Spacing Scale */
+  --spacing-xs: 0.5rem;          /* 8px */
+  --spacing-sm: 0.45rem;         /* 12px */
+  --spacing-md: 1rem;            /* 16px */
+  --spacing-lg: 1.5rem;          /* 24px */
+  --spacing-xl: 2.5rem;          /* 40px */
+  --spacing-xxl: 4rem;           /* 64px */
+  
+  /* Layout Constraints */
+  --container-max-width: 1280px;
+  --header-height: 76px;
+  --header-height-mobile: 64px;
+  
+  /* Borders & Shadows */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-round: 9999px;
+  
+  --shadow-sm: 0 2px 4px var(--color-shadow);
+  --shadow-md: 0 8px 16px var(--color-shadow);
+  --shadow-lg: 0 16px 32px var(--color-shadow);
+  
+  /* Animations */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Mobile Typography Scale Tokens (34px hero, 28px section, 18px cards) ── */
+  --fs-hero-heading: 34px;
+  --fs-hero-desc: 16px;
+  --fs-section-heading: 28px;
+  --fs-section-sub: 16px;
+  --fs-card-heading: 18px;
+  --fs-card-desc: 15px;
+  --fs-body: 16px;
+  --fs-nav: 16px;
+  --fs-footer-heading: 20px;
+  --fs-footer-body: 15px;
+  --fs-btn: 16px;
+  --fs-stats-num: 42px;
+  --fs-stats-label: 14px;
+
+  /* ── Spacing & Sizing Scale Defaults ── */
+  --section-padding: 20px;
+  --card-padding: 20px;
+  --btn-height: 46px;
+  --navbar-height: 64px;
+}

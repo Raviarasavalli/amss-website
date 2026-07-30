@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ravi-kiran",
+    "name": "Arasavalli Ravi Kiran",
+    "role": "Founder & Volunteer",
+    "isFounder": true,
+    "badge": "Founder & Volunteer",
+    "bio": "Founding member of AMSS, leading voluntary community services with focus on education and social welfare.",
+    "image": "/src/assets/images/placeholders/team_ravi.png",
+    "socialLinks": [
+      { "platform": "linkedin", "url": "https://linkedin.com" },
+      { "platform": "instagram", "url": "https://instagram.com" },
+      { "platform": "email", "url": "mailto:aadarshamitrasevasangham@gmail.com" }
+    ]
+  },
+  {
+    "id": "simhachalam",
+    "name": "S Simhachalam",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Handles on-ground logistics, drive coordination, and volunteer mobilization for primary school support.",
+    "image": "/src/assets/images/placeholders/team_simhachalam.jpg",
+    "socialLinks": [
+      { "platform": "linkedin", "url": "https://linkedin.com" }
+    ]
+  },
+  {
+    "id": "sravan-kumar",
+    "name": "Y Sravan Kumar",
+    "role": "Executive Member",
+    "badge": "Executive Member",
+    "bio": "Dedicated field volunteer supporting logistics, event operations, and community drive coordination.",
+    "image": "/src/assets/images/placeholders/team_sravan.jpg",
+    "socialLinks": []
+  },
+  {
+    "id": "anil-kumar",
+    "name": "A Anil Kumar",
+    "role": "Executive Member",
+    "badge": "Volunteer",
+    "bio": "Coordinates monthly ration distributions and field activities for underprivileged families.",
+    "image": "/src/assets/images/placeholders/team_anil.png",
+    "socialLinks": []
+  },
+  {
+    "id": "p-deepika",
+    "name": "P Deepika",
+    "role": "Executive Member",
+    "badge": "Executive Member",
+    "bio": "Active executive volunteer coordinating educational kit distribution and child welfare initiatives.",
+    "image": "/src/assets/images/placeholders/team_deepika.png",
+    "socialLinks": []
+  },
+  {
+    "id": "g-karthik",
+    "name": "G Karthik",
+    "role": "Executive Member",
+    "badge": "Executive Member",
+    "bio": "Manages community outreach, event setup, and youth volunteer engagement for ground drives.",
+    "image": "/src/assets/images/placeholders/team_karthik.png",
+    "socialLinks": []
+  },
+ 
+  {
+    "id": "b-revathi",
+    "name": "B Revathi",
+    "role": "Executive Member",
+    "badge": "Executive Member",
+    "bio": "Oversees food security campaigns, ration packing, and healthcare drive planning.",
+    "image": "/src/assets/images/placeholders/team_revathi.png",
+    "socialLinks": []
+  },
+  {
+    "id": "p-pujitha",
+    "name": "P Pujitha",
+    "role": "Executive Member",
+    "badge": "Executive Member",
+    "bio": "Leads primary school support programs, volunteer coordination, and social impact tracking.",
+    "image": "/src/assets/images/placeholders/team_pujitha.png",
+    "socialLinks": []
+  },
+  {
+    "id": "v-anitha",
+    "name": "B Jyothika",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Supports community relations, beneficiary verification, and school outreach drives.",
+    "image": "/src/assets/images/placeholders/team_anitha.jpg",
+    "socialLinks": []
+  },
+  {
+    "id": "ajay-kumar",
+    "name": "Ajay Kumar",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Coordinates field logistics, venue arrangements, and youth volunteer mobilization for social drives.",
+    "image": "/src/assets/images/placeholders/team_ajay.png",
+    "socialLinks": []
+  },
+  {
+    "id": "m-suresh",
+    "name": "S Bhaskar rao",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Oversees inventory, kit assembly, and distribution planning during annual education campaigns.",
+    "image": "/src/assets/images/placeholders/team_suresh.png",
+    "socialLinks": []
+  },
+   
+  
+  {
+    "id": "t-sai-ram",
+    "name": "G Nani",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Assists on-ground event management, logistics support, and volunteer coordination.",
+    "image": "/src/assets/images/placeholders/team_sai_ram.png",
+    "socialLinks": []
+  },
+  {
+    "id": "n-swapna",
+    "name": "B Yasaswini",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Helps manage food security distributions, ration packing, and healthcare camp setups.",
+    "image": "/src/assets/images/placeholders/team_swapna.png",
+    "socialLinks": []
+  },
+  {
+    "id": "k-vandana",
+    "name": "K Vandana",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": " controlling social media and coordinates youth volunteer drives, digital documentation, and community relief activities.",
+    "image": "/src/assets/images/placeholders/team_vandana.png",
+    "socialLinks": []
+  },
+  {
+    "id": "A Tejeswara rao",
+    "name": "A Tejeswara rao",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Manages community outreach, event setup, and youth volunteer engagement for ground drives.",
+    "image": "/src/assets/images/placeholders/team_bhanu_prakash.png",
+    "socialLinks": []
+  },
+  {
+    "id": "y-pakeeru-naidu",
+    "name": "Y Pakeeru Naidu",
+    "role": "Executive Volunteer",
+    "badge": "Executive Member",
+    "bio": "Leads primary school support programs, volunteer coordination, and social impact tracking.",
+    "image": "/src/assets/images/placeholders/team_pakeeru_naidu.png",
+    "socialLinks": []
+  }
+]

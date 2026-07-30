@@ -1,0 +1,103 @@
+{
+  "name": "Aadarsha Mitra Seva Sangham",
+  "acronym": "AMSS",
+  "tagline": "Daivam Maanushya Rupena",
+  "establishedYear": 2022,
+  "logoPath": "/src/assets/images/logo/logo.png",
+  "heroImagePath": "/src/assets/images/placeholders/hero.png",
+ 
+  "aboutPreview": "Aadarsha Mitra Seva Sangham (AMSS) is a student-led social service initiative founded in 2022 with a simple belief—small acts of kindness can create lasting change. What started as a group of friends contributing a small amount each month has grown into a mission dedicated to supporting education, food assistance, and community welfare.\n\nGuided by the philosophy \"Daivam Maanushya Rupena,\" we believe that God works through compassionate hearts to bring hope, dignity, and positive change to society. Together, we strive to create opportunities, inspire kindness, and build a brighter future for children, families, and communities.",
+  "mission": "To uplift underprivileged communities by providing quality education, nutritional support, health services, and environmental drives, thereby fostering self-reliance and dignity.",
+  "vision": "A harmonious society where every child has access to education, every family is free from hunger, and sustainable environmental practices are a way of life.",
+  "founder": {
+    "name": "Arasavalli Ravi Kiran",
+    "role": "Founder & Volunteer",
+    "bio": "A dedicated social worker and founding member of AMSS, leading voluntary community services with a focus on education and rural development.",
+    "message": "Aadarsha Mitra Seva Sangham (AMSS) is more than just an organization; it is a promise made by a group of school friends to stand by our community. When we started in 2022, we were just 10 to 15 classmates who wanted to make a difference. Guided by our teachers, PDR Sir and KTR Sir, we pooled together our pocket savings. Today, that small pledge has grown into a structured mission of service. Education is the ultimate foundation for lasting change. By bringing together small contributions from many warm hearts, we can create a massive, lasting impact in someone's life. We are deeply grateful to our volunteers, supporters, and teachers who continue to guide us on this journey of compassion."
+  },
+  "statistics": [
+    {
+      "id": "years-service",
+      "value": "4+",
+      "label": "Years of Service",
+      "description": "Fostering community growth since 2022.",
+      "icon": "Calendar"
+    },
+    {
+      "id": "funds-raised",
+      "value": "₹1,28,649+",
+      "label": "Funds Raised",
+      "description": "Donations from compassionate supporters.",
+      "icon": "Heart"
+    },
+    {
+      "id": "drives-completed",
+      "value": "10+",
+      "label": "Drives Completed",
+      "description": "Completed drives across target primary schools.",
+      "icon": "Award"
+    },
+    {
+      "id": "beneficiaries",
+      "value": "500+",
+      "label": "Beneficiaries",
+      "description": "Received direct educational or nutritional aid.",
+      "icon": "Users"
+    },
+    {
+      "id": "active-mitras",
+      "value": "25+",
+      "label": "Active Mitras",
+      "description": "Dedicated volunteers working on-ground.",
+      "icon": "UserCheck"
+    },
+    {
+      "id": "local-events",
+      "value": "10+",
+      "label": "Local Events",
+      "description": "Workshops, drives, and local gatherings.",
+      "icon": "Globe"
+    }
+  ],
+  "contact": {
+    "address": {
+      "building": "Plot No. 42, Ground Floor",
+      "street": "Mitra Vihar Colony, Near Community Hall",
+      "area": "Kothapet",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500035",
+      "country": "India"
+    },
+    "phones": [
+      "+91 80968 95929"
+    ],
+    "emails": [
+      "aadarshamitrasevasangham@gmail.com"
+    ],
+    "workingHours": "Monday - Saturday: 9:00 AM to 6:00 PM (IST)",
+    "googleMapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.0450709403816!2d78.5435987!3d17.3615469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98a12e52d6a5%3A0xc39f99583b2767eb!2sKothapet%2C%20Hyderabad%2C%20Telangana%20500035!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+  },
+  "socialMedia": [
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/adarsha_mitra_seva_samstha/?utm_source=ig_web_button_share_sheet",
+      "icon": "Instagram"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/amssngo",
+      "icon": "Facebook"
+    },
+    {
+      "platform": "Youtube",
+      "url": "https://youtube.com/amssngo",
+      "icon": "Youtube"
+    },
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/918096895929",
+      "icon": "MessageCircle"
+    }
+  ]
+}

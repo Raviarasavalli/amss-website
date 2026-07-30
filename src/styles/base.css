@@ -1,0 +1,140 @@
+/* Box sizing rules & Resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Set core body defaults — Inter (Body) */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  line-height: var(--lh-body);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Accessibility Focus States */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cta);
+  outline-offset: 4px;
+}
+
+/* Typography Headings — Poppins (Headings) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  line-height: var(--lh-heading);
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: var(--fs-hero-heading);
+  font-weight: 800;
+  letter-spacing: var(--ls-hero);
+}
+
+h2 {
+  font-size: var(--fs-section-heading);
+  font-weight: 700;
+  letter-spacing: var(--ls-section);
+}
+
+h3 {
+  font-size: var(--fs-card-heading);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: var(--fs-card-heading);
+  font-weight: 600;
+}
+
+p {
+  font-family: var(--font-body);
+  color: var(--color-text-muted);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+
+/* Links reset */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+/* Skip link for keyboard accessibility */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--spacing-sm) var(--spacing-md);
+  z-index: 9999;
+  border-bottom-right-radius: var(--radius-sm);
+  transition: top var(--transition-fast);
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.skip-link:focus-visible {
+  top: 0;
+}
+
+/* Screen reader only utility class for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,89 @@
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: 0 var(--spacing-lg);
+  border-radius: var(--radius-round);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--fs-btn);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+  user-select: none;
+  height: var(--btn-height);
+  min-height: var(--btn-height);
+}
+
+/* Primary Button (CTA Gold) */
+.btn--primary {
+  background-color: var(--color-cta);
+  color: var(--color-text); /* Accessible high contrast text */
+}
+
+.btn--primary:hover {
+  background-color: var(--color-cta-hover);
+  transform: translateY(-1px);
+}
+
+/* Secondary Button (Primary Green) */
+.btn--secondary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-secondary);
+  transform: translateY(-1px);
+}
+
+/* Outline Button */
+.btn--outline {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-1px);
+}
+
+/* Text Button */
+.btn--text {
+  background-color: transparent;
+  color: var(--color-primary);
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  min-height: auto;
+}
+
+.btn--text:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.btn--sm {
+  font-size: var(--font-size-xs);
+  padding: 0 var(--spacing-md);
+  height: calc(var(--btn-height) - 6px);
+  min-height: calc(var(--btn-height) - 6px);
+}
+
+.btn--lg {
+  font-size: var(--fs-hero-desc);
+  padding: 0 var(--spacing-xl);
+  height: calc(var(--btn-height) + 6px);
+  min-height: calc(var(--btn-height) + 6px);
+}
+
+/* Accessible focus outline for visible focus states */
+.btn:focus-visible {
+  outline: 2px solid var(--color-cta);
+  outline-offset: 4px;
+}

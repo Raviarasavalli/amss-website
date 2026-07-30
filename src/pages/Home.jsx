@@ -14,6 +14,7 @@ import TeamCard from '../components/common/TeamCard';
 import Counter from '../components/common/Counter';
 
 function Home() {
+  const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
   useEffect(() => {
     document.title = 'Aadarsha Mitra Seva Sangham (AMSS) | Together We Can Create Hope';

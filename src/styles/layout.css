@@ -3524,8 +3524,8 @@
     flex-direction: column !important;
     justify-content: flex-end !important;
     align-items: center !important;
-    padding-bottom: 50px !important;
-    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+    padding-top: 30px !important;
     box-sizing: border-box !important;
   }
 
@@ -4339,7 +4339,7 @@
 
 .founder-portrait-img {
   width: 100%;
-  height: 100%;
+  height: 121%;
   object-fit: cover;
   object-position: top center;
   display: block;

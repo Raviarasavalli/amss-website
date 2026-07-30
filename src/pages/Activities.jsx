@@ -52,26 +52,18 @@ function Activities() {
       const foundIndex = activitiesData.findIndex((act) => act.id === activityId);
       if (foundIndex !== -1) {
         setActiveCategory('All');
+        setSelectedDetails(activitiesData[foundIndex]);
+        setActiveGalleryIndex(0);
         if (foundIndex >= visibleCount) {
           setVisibleCount(foundIndex + 6);
         }
         setHighlightedId(activityId);
 
-        const scrollTimer = setTimeout(() => {
-          const cardElem = document.getElementById(`activity-card-${activityId}`);
-          if (cardElem) {
-            cardElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }
-        }, 300);
-
         const clearTimer = setTimeout(() => {
           setHighlightedId(null);
         }, 2800);
 
-        return () => {
-          clearTimeout(scrollTimer);
-          clearTimeout(clearTimer);
-        };
+        return () => clearTimeout(clearTimer);
       }
     }
   }, [searchParams]);

@@ -67,7 +67,7 @@
 @media (max-width: 767px) {
   .ft__grid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 15px;
     text-align: center;
   }
 }
@@ -308,7 +308,7 @@
   }
   .ft__social-box--mobile {
     display: block;
-    margin-top: 14px;
+    margin-top: -14px;
   }
 }
 
@@ -356,6 +356,12 @@
 }
 
 /* Get Involved */
+@media (max-width: 768px) {
+  .ft__involved-box {
+    display: none !important;
+  }
+}
+
 .ft__involved-desc {
   font-size: 11.5px;
   color: #D1FAE5;

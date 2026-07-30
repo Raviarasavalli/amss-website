@@ -22,37 +22,6 @@
   100% { opacity: 0.6; }
 }
 
-/* Statistic Card */
-.statistic-card {
-  align-items: flex-start;
-  gap: var(--spacing-sm);
-}
-
-.statistic-card__icon {
-  color: var(--color-primary);
-  margin-bottom: var(--spacing-xs);
-  flex-shrink: 0;
-}
-
-.statistic-card__value {
-  font-family: var(--font-heading);
-  font-size: var(--fs-stats-num);
-  font-weight: 700;
-  color: var(--color-primary);
-  line-height: var(--lh-heading);
-}
-
-.statistic-card__label {
-  font-family: var(--font-heading);
-  font-size: var(--fs-stats-label);
-  font-weight: 500;
-  color: var(--color-text);
-}
-
-.statistic-card__desc {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-muted);
-}
 
 /* Activity Card Grid */
 .featured-activities-grid {
@@ -559,9 +528,7 @@
   color: var(--color-text);
 }
 
-.feature-card .statistic-card__desc {
-  text-align: center;
-}
+
 
 
 

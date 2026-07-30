@@ -3,6 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import siteData from '../../data/site.json';
 import Container from '../common/Container';
+import { logoImg } from '../../assets/images';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,14 +67,11 @@ function Navbar() {
           {/* Brand Logo & Name */}
           <NavLink to="/" className="navbar__brand" aria-label={`${siteData.name} Home`}>
             <img 
-              src={siteData.logoPath} 
-              alt="" 
+              src={logoImg} 
+              alt={siteData.name} 
               width="48" 
               height="48" 
               className="navbar__logo-img" 
-              onError={(e) => {
-                e.currentTarget.src = '/src/assets/images/logo/logo.png';
-              }}
             />
             <div className="navbar__brand-text flex flex-column">
               <span className="navbar__brand-title">{siteData.acronym}</span>

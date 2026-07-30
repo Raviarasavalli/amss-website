@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as Icons from 'lucide-react';
 import siteData from '../data/site.json';
+import { logoImg, activitiesEdu, activitiesFood, activitiesPlant } from '../assets/images';
 import activitiesData from '../data/activities.json';
 import teamData from '../data/team.json';
 import Container from '../components/common/Container';
@@ -14,24 +15,9 @@ import Counter from '../components/common/Counter';
 
 function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [selectedActivity, setSelectedActivity] = useState(null);
-  const navigate = useNavigate();
-
   useEffect(() => {
     document.title = 'Aadarsha Mitra Seva Sangham (AMSS) | Together We Can Create Hope';
   }, []);
-
-  // Lock scroll when modal is open
-  useEffect(() => {
-    if (selectedActivity) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, [selectedActivity]);
 
   // Carousel auto-rotate slide transition every 6 seconds
   useEffect(() => {
@@ -71,7 +57,7 @@ function Home() {
         </span>
       ),
       description: "AMSS is dedicated to improving lives through education, food support, community development, and compassionate service. Together we create opportunities, restore hope, and build stronger communities.",
-      image: '/src/assets/images/placeholders/activities_edu.png'
+      image: activitiesEdu
     },
     {
       id: 'slide-2',
@@ -84,7 +70,7 @@ function Home() {
         </span>
       ),
       description: "We believe no child or family should go to sleep hungry. Through monthly food distribution drives, we provide nutritious meals and essential rations to those in need.",
-      image: '/src/assets/images/placeholders/activities_food.png'
+      image: activitiesFood
     },
     {
       id: 'slide-3',
@@ -97,7 +83,7 @@ function Home() {
         </span>
       ),
       description: "Our environmental drives focus on planting saplings, establishing tree guards, and raising awareness about ecological conservation. Join us to make our neighborhoods cleaner and greener.",
-      image: '/src/assets/images/placeholders/activities_plant.png'
+      image: activitiesPlant
     }
   ];
 
@@ -448,7 +434,8 @@ function Home() {
                   className="mentors-frame__single-img" 
                   loading="lazy"
                   onError={(e) => {
-                    e.currentTarget.src = '/src/assets/images/logo/logo.png';
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = logoImg;
                   }}
                 />
               </div>

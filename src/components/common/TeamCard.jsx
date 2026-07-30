@@ -1,17 +1,21 @@
 import React from 'react';
+import { logoImg, teamImages } from '../../assets/images';
 
-function TeamCard({ name, role, bio, image, className = '' }) {
+function TeamCard({ id, name, role, bio, image, className = '' }) {
+  const imgSrc = teamImages[id] || image || logoImg;
+
   return (
     <div className={`reusable-team-card ${className}`.trim()}>
       {/* 1:1 Aspect Ratio Square Image */}
       <div className="reusable-team-card__image-container">
         <img
-          src={image}
+          src={imgSrc}
           alt={name}
           loading="lazy"
           className="reusable-team-card__image"
           onError={(e) => {
-            e.currentTarget.src = '/src/assets/images/logo/logo.png';
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = logoImg;
           }}
         />
       </div>

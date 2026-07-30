@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import teamData from '../data/team.json';
 import Container from '../components/common/Container';
 import Section from '../components/common/Section';
-import Button from '../components/common/Button';
 import SectionTitle from '../components/common/SectionTitle';
 import TeamCard from '../components/common/TeamCard';
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as Icons from 'lucide-react';
+import { logoImg } from '../../assets/images';
 
 // Category badge color helper for distinct visual tags
 const getCategoryBadgeStyle = (cat) => {
@@ -37,7 +38,7 @@ function ActivityCard({
 }) {
   const allImages = (images && images.length > 0)
     ? images
-    : (image ? [image] : ['/src/assets/images/logo/logo.png']);
+    : (image ? [image] : [logoImg]);
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -98,7 +99,7 @@ function ActivityCard({
             opacity: fade ? 1 : 0,
             transition: 'opacity 0.25s ease',
           }}
-          onError={(e) => { e.currentTarget.src = '/src/assets/images/logo/logo.png'; }}
+          onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = logoImg; }}
         />
 
         {/* Prev / Next arrows – show only when multiple images */}

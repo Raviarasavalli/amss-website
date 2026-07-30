@@ -8,6 +8,7 @@ import {
 import WhatsAppIcon from '../common/WhatsAppIcon';
 import siteData from '../../data/site.json';
 import Container from '../common/Container';
+import { logoImg } from '../../assets/images';
 
 const quickLinks = [
   { label: 'Home',                   to: '/'          },
@@ -40,12 +41,11 @@ function Footer() {
             <div className="ft__col ft__col--brand">
               <div className="ft__brand-header">
                 <img
-                  src={siteData.logoPath}
+                  src={logoImg}
                   alt="AMSS Logo"
                   width="44"
                   height="44"
                   className="ft__logo-img"
-                  onError={e => { e.currentTarget.src = '/src/assets/images/logo/logo.png'; }}
                 />
                 <div className="ft__brand-text">
                   <h3 className="ft__brand-name">{siteData.acronym}</h3>

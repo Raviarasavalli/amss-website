@@ -3,8 +3,8 @@ import * as Icons from 'lucide-react';
 import WhatsAppIcon from '../components/common/WhatsAppIcon';
 import Container from '../components/common/Container';
 import Section from '../components/common/Section';
-import Button from '../components/common/Button';
 import SectionTitle from '../components/common/SectionTitle';
+import { heroImg } from '../assets/images';
 
 function Contact() {
   useEffect(() => {
@@ -50,7 +50,7 @@ function Contact() {
       <section
         className="hero contact-hero"
         style={{
-          backgroundImage: `linear-gradient(rgba(27, 94, 60, 0.8), rgba(27, 94, 60, 0.95)), url(/src/assets/images/placeholders/hero.png)`,
+          backgroundImage: `linear-gradient(rgba(27, 94, 60, 0.8), rgba(27, 94, 60, 0.95)), url(${heroImg})`,
         }}
         aria-label="Contact Page Banner"
       >

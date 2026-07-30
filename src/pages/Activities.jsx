@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import * as Icons from 'lucide-react';
 import activitiesData from '../data/activities.json';
+import { logoImg } from '../assets/images';
 import Container from '../components/common/Container';
 import Section from '../components/common/Section';
 import Button from '../components/common/Button';
@@ -158,7 +159,7 @@ function Activities() {
     if (activity.image) {
       return [activity.image];
     }
-    return ['/src/assets/images/logo/logo.png'];
+    return [logoImg];
   };
 
   return (
@@ -280,7 +281,7 @@ function Activities() {
                     src={imgs[activeGalleryIndex] || imgs[0]}
                     alt={selectedDetails.title}
                     className="amd-main-img"
-                    onError={(e) => { e.currentTarget.src = '/src/assets/images/logo/logo.png'; }}
+                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = logoImg; }}
                   />
 
                   {/* Close button */}

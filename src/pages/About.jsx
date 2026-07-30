@@ -3,8 +3,8 @@ import * as Icons from 'lucide-react';
 import siteData from '../data/site.json';
 import Container from '../components/common/Container';
 import Section from '../components/common/Section';
-import Button from '../components/common/Button';
 import SectionTitle from '../components/common/SectionTitle';
+import { heroImg, teamImages } from '../assets/images';
 
 function About() {
   useEffect(() => {
@@ -40,7 +40,7 @@ function About() {
       <section 
         className="hero" 
         style={{ 
-          backgroundImage: `linear-gradient(rgba(27, 94, 60, 0.8), rgba(27, 94, 60, 0.95)), url(${siteData.heroImagePath})` 
+          backgroundImage: `linear-gradient(rgba(27, 94, 60, 0.8), rgba(27, 94, 60, 0.95)), url(${heroImg})` 
         }}
         aria-label="About AMSS Hero"
       >
@@ -175,7 +175,7 @@ function About() {
             <div className="founder-profile-col">
               <div className="founder-portrait-wrapper">
                 <img 
-                  src="/src/assets/images/placeholders/team_ravi.png" 
+                  src={teamImages['ravi-kiran']} 
                   alt="Founder Arasavalli Ravi Kiran portrait" 
                   className="founder-portrait-img"
                   loading="lazy"
@@ -187,8 +187,6 @@ function About() {
 
             {/* Right Column: Premium Content Card */}
             <div className="founder-message-card">
-              {/* <Icons.Quote size={40} className="founder-quote-icon" aria-hidden="true" /> */}
-              
               <p className="founder-message-p">
                 Aadarsha Mitra Seva Sangham (AMSS) is more than just an organization; it is a promise made by a group of school friends to stand by our community. When we started in 2022, we were just 10 to 15 classmates who wanted to make a difference. Guided by our teachers, Sri P. Pydiraju Sir and Sri K. Tirupathi Rao Sir, we pooled together our pocket savings. Today, that small pledge has grown into a structured mission of service.
               </p>
@@ -196,8 +194,6 @@ function About() {
               <p className="founder-message-p">
                 I personally follow the philosophy of &ldquo;Daivam Maanushya Rupena,&rdquo; believing that serving humanity is one of the purest ways to experience the presence of God. This belief inspires every initiative we undertake and reminds us that even the smallest act of kindness can transform someone's life.
               </p>
-
-
 
               <p className="founder-message-p">
                 By bringing together small contributions from many warm hearts, we can create a lasting impact in someone's life. We are deeply grateful to our volunteers, supporters, and teachers who continue to guide us on this journey of compassion.
